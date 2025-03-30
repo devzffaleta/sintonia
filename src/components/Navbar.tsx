@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-black text-white shadow-md">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center">
+          <Link to="/centro-cultural" className="flex items-center">
             <img 
               src="/lovable-uploads/641a89d4-7595-4da4-9efc-0648690728d1.png" 
               alt="Centro Cultural Sintonia" 
@@ -27,6 +27,9 @@ const Navbar = () => {
           {/* Menu desktop */}
           <nav className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-white hover:text-teatro-500 transition-colors">
+              Sintonia
+            </Link>
+            <Link to="/centro-cultural" className="text-white hover:text-teatro-500 transition-colors">
               Início
             </Link>
             <Link to="/cursos" className="text-white hover:text-teatro-500 transition-colors">
@@ -77,6 +80,15 @@ const Navbar = () => {
               <li>
                 <Link 
                   to="/" 
+                  className="block text-white hover:text-teatro-500"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Sintonia
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/centro-cultural" 
                   className="block text-white hover:text-teatro-500"
                   onClick={() => setIsMenuOpen(false)}
                 >

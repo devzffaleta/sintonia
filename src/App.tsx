@@ -9,6 +9,7 @@ import Cursos from "./pages/Cursos";
 import Galeria from "./pages/Galeria";
 import AulaExperimental from "./pages/AulaExperimental";
 import NotFound from "./pages/NotFound";
+import SintoniaPrincipal from "./pages/SintoniaPrincipal";
 import { StrictMode } from "react";
 
 // Create a client
@@ -23,7 +24,8 @@ const App = () => {
           <Sonner />
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Index />} />
+              <Route path="/" element={<SintoniaPrincipal />} />
+              <Route path="/centro-cultural" element={<Index />} />
               <Route path="/cursos" element={<Cursos />} />
               <Route path="/galeria" element={<Galeria />} />
               <Route path="/aula-experimental" element={<AulaExperimental />} />
