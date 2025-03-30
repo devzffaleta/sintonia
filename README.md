@@ -1,5 +1,5 @@
 
-# Bem-vindo ao seu projeto Teatro Sintonia
+# Bem-vindo ao seu projeto Centro Cultural Sintonia
 
 ## Informações do projeto
 

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Teatro Sintonia</h3>
+            <h3 className="text-xl font-bold mb-4">Centro Cultural Sintonia</h3>
             <p className="text-gray-300 mb-4">
               Formando artistas e transformando vidas através da arte do teatro.
             </p>
@@ -90,14 +90,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 text-teatro-500" />
-                <span className="text-gray-300">contato@teatrosintonia.com.br</span>
+                <span className="text-gray-300">contato@centroculturalsintonia.com.br</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-6 mt-6 text-sm text-gray-400 flex flex-col md:flex-row justify-between items-center">
-          <p>© {new Date().getFullYear()} Teatro Sintonia. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Centro Cultural Sintonia. Todos os direitos reservados.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-4">
               <li>

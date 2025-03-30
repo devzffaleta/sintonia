@@ -73,7 +73,7 @@ const Index = () => {
       <main>
         <HeroSection 
           title="Desperte o artista que existe em você"
-          subtitle="Desenvolva sua expressão artística, liberte sua criatividade e transforme-se através do teatro"
+          subtitle="Desenvolva sua expressão artística, liberte sua criatividade e transforme-se através da arte"
         />
         
         {/* Cursos */}
@@ -101,7 +101,7 @@ const Index = () => {
               <div className="w-full lg:w-1/2">
                 <h2 className="text-3xl font-bold mb-6">Certificado Reconhecido</h2>
                 <p className="text-gray-700 mb-6">
-                  Nossos cursos oferecem certificação reconhecida no mercado artístico, valorizando seu currículo e abrindo portas para oportunidades profissionais. Todo aluno formado recebe um certificado que comprova suas habilidades e dedicação ao aprendizado das artes cênicas.
+                  Nossos cursos oferecem certificação reconhecida no mercado artístico, valorizando seu currículo e abrindo portas para oportunidades profissionais. Todo aluno formado recebe um certificado que comprova suas habilidades e dedicação ao aprendizado das artes.
                 </p>
                 <Button
                   asChild
@@ -116,7 +116,7 @@ const Index = () => {
               <div className="w-full lg:w-1/2 bg-gray-300 h-80 rounded-lg overflow-hidden">
                 <img 
                   src="/lovable-uploads/15c47f53-c670-443e-9313-550fff4a9c16.png" 
-                  alt="Certificado Teatro Infinito" 
+                  alt="Certificado Centro Cultural Sintonia" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -129,7 +129,7 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-4">Mostra</h2>
             <p className="text-gray-700 mb-10">
-              Conheça alguns trabalhos realizados por nossos alunos e apresentações da escola
+              Conheça alguns trabalhos realizados por nossos alunos e apresentações do centro cultural
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
