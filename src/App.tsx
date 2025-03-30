@@ -9,25 +9,31 @@ import Cursos from "./pages/Cursos";
 import Galeria from "./pages/Galeria";
 import AulaExperimental from "./pages/AulaExperimental";
 import NotFound from "./pages/NotFound";
+import { StrictMode } from "react";
 
+// Create a client
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/cursos" element={<Cursos />} />
-          <Route path="/galeria" element={<Galeria />} />
-          <Route path="/aula-experimental" element={<AulaExperimental />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+const App = () => {
+  return (
+    <StrictMode>
+      <QueryClientProvider client={queryClient}>
+        <TooltipProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/cursos" element={<Cursos />} />
+              <Route path="/galeria" element={<Galeria />} />
+              <Route path="/aula-experimental" element={<AulaExperimental />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </BrowserRouter>
+        </TooltipProvider>
+      </QueryClientProvider>
+    </StrictMode>
+  );
+};
 
 export default App;
