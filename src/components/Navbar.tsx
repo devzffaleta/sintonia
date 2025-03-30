@@ -18,10 +18,10 @@ const Navbar = () => {
           <Link to="/" className="flex items-center">
             <img 
               src="/lovable-uploads/641a89d4-7595-4da4-9efc-0648690728d1.png" 
-              alt="Teatro Infinito" 
+              alt="Teatro Sintonia" 
               className="h-10 mr-2"
             />
-            <span className="text-lg font-bold">Teatro Infinito</span>
+            <span className="text-lg font-bold">Teatro Sintonia</span>
           </Link>
 
           {/* Menu desktop */}
