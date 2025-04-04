@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -10,6 +9,7 @@ import Galeria from "./pages/Galeria";
 import AulaExperimental from "./pages/AulaExperimental";
 import NotFound from "./pages/NotFound";
 import SintoniaPrincipal from "./pages/SintoniaPrincipal";
+import Ingressos from "./pages/Ingressos";
 import { StrictMode } from "react";
 
 // Create a client
@@ -29,6 +29,7 @@ const App = () => {
               <Route path="/cursos" element={<Cursos />} />
               <Route path="/galeria" element={<Galeria />} />
               <Route path="/aula-experimental" element={<AulaExperimental />} />
+              <Route path="/ingressos" element={<Ingressos />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
