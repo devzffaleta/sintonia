@@ -33,14 +33,14 @@ const courses = [
     image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     url: "/cursos?categoria=canto"
   },
-  {
-    id: "4",
-    title: "Instrumentos",
-    category: "Piano e violão",
-    shortDescription: "Aulas de instrumentos para complementar sua formação",
-    image: "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    url: "/cursos?categoria=instrumentos"
-  },
+  // {
+  //   id: "4",
+  //   title: "Instrumentos",
+  //   category: "Piano e violão",
+  //   shortDescription: "Aulas de instrumentos para complementar sua formação",
+  //   image: "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+  //   url: "/cursos?categoria=instrumentos"
+  // },
 ];
 
 const showcaseItems = [
@@ -97,9 +97,9 @@ const Index = () => {
         <section className="relative w-full min-h-[90vh] flex items-center justify-center">
           <div className="absolute inset-0 w-full h-full">
             <img 
-              src="/lovable-uploads/Foto_referente_a_um_espetaculo_corcunda_de_notre_dame.jpg" 
+              src="/lovable-uploads/banner_sintonia.jpg" 
               alt="Banner Principal - Espetáculo O Corcunda de Notre Dame" 
-              className="w-full h-full object-cover brightness-90"
+              className="w-full h-full object-cover object-top brightness-90"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/80"></div>
           </div>
